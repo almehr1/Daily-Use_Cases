@@ -1,0 +1,8 @@
+# The loop runs until a suitable input is available
+number = "x"
+while not (number.isdecimal()):
+    number = input("Please enter number: ")
+
+number = int(number)
+
+print(number)
